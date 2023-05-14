@@ -13,10 +13,10 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--black);
-  font-size: var(--font-size-base);
-  background-color: #FAF5EE;
-  background-image: url("/img/img-noise-361x370.png");
-  margin: 0;
+    font-size: var(--font-size-base);
+    background-color: #FAF5EE;
+    background-image: url("/img/img-noise-361x370.png");
+    margin: 0;
 }
 
 a { color: var(--black); }
