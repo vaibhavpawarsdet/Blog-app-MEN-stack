@@ -12,16 +12,15 @@
     <link rel="stylesheet" href="/stylesheets/style.css">
     <script type="text/javascript" defer src="/javascripts/script.js"></script>
 </head>
-
 <body>
-    <%- include('../partials/search.ejs')  %>
+  
     <div class="container">
-            <%- include('../partials/header.ejs') %>
-            <main class="main">
-                <%- body %>
-            </main>
-            <%- include('../partials/footer.ejs') %>
-    </div>
-</body>
-
-</html>
+      <%- include('../partials/header_admin.ejs')  %>
+      <main class="main">
+        <%- body %>
+      </main>
+      <%- include('../partials/footer.ejs')  %>
+    </div>  
+  
+  </body>
+  </html>
