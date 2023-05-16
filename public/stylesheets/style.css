@@ -9,7 +9,6 @@
     --font-size-xl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
     --border-radius: 10px;
 }
-
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--black);
@@ -18,7 +17,6 @@ body {
     background-image: url("/img/img-noise-361x370.png");
     margin: 0;
 }
-
 a { color: var(--black); }
 h1 { font-size: var(--font-size-xl); }
 h2 { font-size: var(--font-size-lg); }
