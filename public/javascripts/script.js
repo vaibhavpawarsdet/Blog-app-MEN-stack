@@ -19,6 +19,4 @@ document.addEventListener('DOMContentLoaded', function(){
       searchBar.classList.remove('open');
       this.setAttribute('aria-expanded', 'false');
     });
-  
-  
   });
