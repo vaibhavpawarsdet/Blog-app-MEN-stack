@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', function(){
     const searchBar = document.querySelector('.searchBar');
     const searchInput = document.getElementById('searchInput');
     const searchClose = document.getElementById('searchClose');
-  
     for (var i = 0; i < allButtons.length; i++) {
       allButtons[i].addEventListener('click', function() {
         searchBar.style.visibility = 'visible';
@@ -12,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function(){
         searchInput.focus();
       });
     }
-    
+
     searchClose.addEventListener('click', function() {
       searchBar.style.visibility = 'hidden';
       searchBar.classList.remove('open');
